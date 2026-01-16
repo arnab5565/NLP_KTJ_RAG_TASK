@@ -8,7 +8,7 @@ from google.genai import types
 import numpy as np
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA-o5rpXf3cgMmqMmUhZRviiGQmCVOJ7Ak"
+os.environ["GOOGLE_API_KEY"] = ""
 
 model = init_chat_model("google_genai:gemini-2.5-flash-lite")
 
@@ -97,4 +97,5 @@ while(True):
     		
 		
 		
+
 
