@@ -5,7 +5,7 @@ from langchain.chat_models import init_chat_model
 model1='gemini-2.5-flash-lite'
 model2='gemini-2.0-flash'
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA-o5rpXf3cgMmqMmUhZRviiGQmCVOJ7Ak"
+os.environ["GOOGLE_API_KEY"] = ""
 
 '''
 model = init_chat_model("google_genai:gemini-2.5-flash-lite")
@@ -102,4 +102,5 @@ response = client.models.generate_content(
 
 
 print(response.text)
+
 
